@@ -1,7 +1,8 @@
-'''this project python makes interpretator for my new language.'''
+'''this project python makes interpretator for my new language. My language contain only variables, print and if-else structures.'''
 my_language = open('my_language.txt', 'r')
 lines = my_language.readlines()
 my_dict = {}
+# collect all variables in dictionary
 for line in lines:
         if 'var' in line:
               i = line.find('r')
@@ -15,6 +16,7 @@ for line in lines:
                     if (line[ii] != ' ') and (line[ii] != ';') and (line[ii] != '/n'):
                           variable_value += line[ii]
               my_dict[variable_name] = variable_value
+      # read all lines and done
 line = 0
 while line < len(lines):
      if 'whether_true' in lines[line]:
