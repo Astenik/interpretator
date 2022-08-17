@@ -1,0 +1,13 @@
+'''in this file written code with my language that is used in interpretetor.py file.'''
+var age1 = 12;
+var age2 = 15;
+var name1 = "Ani";
+var name2 = "Ann";
+out name1;
+out age1;
+out name2;
+out age2;
+whether_true age1 > age2:
+    out 'Ani is oldr than Ann';
+otherwise:
+     out 'Ann is older than Ani';
