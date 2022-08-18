@@ -9,5 +9,7 @@ out name2;
 out age2;
 whether_true age1 > age2:
     out 'Ani is oldr than Ann';
+whether_true age1 == age2:
+    out 'Ani and Ann are the same age';
 otherwise:
      out 'Ann is older than Ani';
